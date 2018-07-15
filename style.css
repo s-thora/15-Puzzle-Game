@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: url("bg-2.png") repeat;
+}
+
+.root {
+    height: 100%;
+    position: relative;
+}
+
+.info, .welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    height: 410px;
+    width: 410px;
+    background-color: black;
+    z-index: 1;
+}
+
+.info p, .welcome p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+    font-size: 1.7em;
+    font-family: Consolas, serif;
+    text-align: center;
+}
+
+.info span, .scores span, .welcome span {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.info #emp, .scores #emp, .welcome #emp {
+    font-size: 1.4em;
+}
+
+.info #sub, .scores #sub, .welcome #sub {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+#nameInput, #nameButton {
+    background-color: white;
+    border: none;
+    height: 25px;
+}
+
+#nameButton {
+    height: 27px;
+}
+
+#win {
+    background-color: #ff4b11;
+}
+
+.status {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    font-family: Consolas, serif;
+    font-weight: bold;
+    padding: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ff4b11;
+    background-color: white;
+}
+
+.status__time, .status__moves {
+    position: absolute;
+    font-family: Consolas, serif;
+    background-color: white;
+}
+
+.status__time {
+    padding-left: 10px;
+    left: 0;
+}
+
+.status__moves {
+    padding-right: 10px;
+    right: 0;
+}
+
+.playground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    flex: 0 0 auto;
+    display: flex;
+}
+
+.cell {
+    background: white;
+}
+
+.scores {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 410px;
+    background-color: #ff4b11;
+    z-index: 1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.scores p {
+    color: white;
+    font-size: 1.7em;
+    font-family: Consolas, serif;
+    text-align: center;
+}
+
+.scores__table {
+    width: 403px;
+    font-family: Consolas, serif;
+    text-align: center;
+    border-spacing: 0;
+}
+
+.scores__table caption {
+    color: white;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scores__table thead {
+    background-color: #ff4b11;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.scores__table tbody tr {
+    line-height: 25px;
+}
+
+.scores__table tbody tr:nth-child(even) {
+    background-color: #ffd1c3;
+}
+
+.scores__table tbody tr:nth-child(odd) {
+    background-color: #ffe6da;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ff4b11;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+    /*background: #555;*/
+/*}*/

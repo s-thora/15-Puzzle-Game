@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    background: url("bg-2.png") repeat;
+    background: url("images/bg-2.png") repeat;
 }
 
 .root {
@@ -167,22 +167,14 @@ html, body {
     background-color: #ffe6da;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
     background: #ff4b11;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: black;
 }
-
-/*!* Handle on hover *!*/
-/*::-webkit-scrollbar-thumb:hover {*/
-    /*background: #555;*/
-/*}*/

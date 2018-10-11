@@ -10,8 +10,8 @@ For development, you will only need Node.js installed on your environment.
 
 ### Dependencies
 
-- [expressjs] - The server for handling and routing HTTP requests
-- [socket\.io] - The library for real-time, bidirectional and event-based communication.
+- [express.js] - The server for handling and routing HTTP requests
+- [socket.io] - The library for real-time, bidirectional and event-based communication.
 
 ### Node installation
 
